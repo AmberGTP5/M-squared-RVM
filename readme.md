@@ -96,6 +96,7 @@ Enhances the model’s ability to verify reasoning steps:
 
 ## Acknowledgments
 - Thanks to the [URSA-MATH](https://github.com/URSA-MATH/URSA-MATH?tab=readme-ov-file) project for providing research ideas and training datasets.
+- Thanks to the [llm_related](https://github.com/wyf3/llm_related/tree/main) project for providing guidance and inspiration. 
 - Thanks to Hugging Face for providing the Transformers library and model hosting.
 - Appreciation to Google Research for developing the SigLIP model.
 - Gratitude to the Qwen team for the Qwen model series.
