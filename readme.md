@@ -95,7 +95,7 @@ Enhances the model’s ability to verify reasoning steps:
 [1] Luo, R., Zheng, Z., Wang, Y., Yu, Y., Ni, X., Lin, Z., Zeng, J., & Yang, Y. (2025). [URSA: Understanding and Verifying Chain-of-thought Reasoning in Multimodal Mathematics](https://arxiv.org/abs/2501.04686). *arXiv preprint arXiv:2501.04686*.
 
 ## Acknowledgments
-- Thanks to the URSA-MATH project(https://github.com/URSA-MATH/URSA-MATH?tab=readme-ov-file) for providing research ideas and training datasets.
+- Thanks to the [URSA-MATH](https://github.com/URSA-MATH/URSA-MATH?tab=readme-ov-file) project for providing research ideas and training datasets.
 - Thanks to Hugging Face for providing the Transformers library and model hosting.
 - Appreciation to Google Research for developing the SigLIP model.
 - Gratitude to the Qwen team for the Qwen model series.
