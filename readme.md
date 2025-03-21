@@ -41,14 +41,13 @@ Enhances the model’s ability to verify reasoning steps:
 
 ### Pretraining Datasets
 - [LLaVA-CC3M-Pretrain-595K](https://huggingface.co/datasets/liuhaotian/LLaVA-CC3M-Pretrain-595K)
-- [Chinese Translation Version](https://huggingface.co/datasets/chinese-llava/Chinese-LLaVA-Vision-Instructions)
 
 ### Geometry Problem Dataset
-- [Geo170K](https://huggingface.co/datasets/geometer/Geo170K)
+- [Geo170K](https://huggingface.co/datasets/Luckyjhg/Geo170K)
 
 ### Mathematical Verification Datasets
-- [MathV360K](https://huggingface.co/datasets/BAAI/MathV360K)
-- [DualMath-1.1M](https://huggingface.co/datasets/TIGER-Lab/DualMath-1.1M)
+- [MathV360K](https://huggingface.co/datasets/Zhiqiang007/MathV360K)
+- [DualMath-1.1M](https://huggingface.co/datasets/URSA-MATH/DualMath-1.1M)
 
 ## Model Download and Usage
 
@@ -56,6 +55,11 @@ Enhances the model’s ability to verify reasoning steps:
 - **Vision Model**: [SigLIP-base-patch16-224](https://huggingface.co/google/siglip-base-patch16-224)
 - **Language Model**: [Qwen2.5-0.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct)
 
+### Models
+- **Pretrained Model**: [pretrain](https://huggingface.co/lation/GeoVLM/tree/main/pretrain)
+- **SFT Model**: [geo_sft](https://huggingface.co/lation/GeoVLM/tree/main/geo_sft)
+- **ppm Model**: [M-squared_RVM](https://huggingface.co/lation/M-squared_RVM/tree/main)
+  
 ## Training and Inference
 - **Training Process**
 - **Model Inference**
@@ -79,25 +83,19 @@ Enhances the model’s ability to verify reasoning steps:
 ## Application Scenarios
 - Solving image-based mathematical and geometry problems
 - Verifying mathematical reasoning steps
-- Educational assistance: Provides reasoning steps and highlights errors
-- Intelligent tutoring system: Helps students understand mathematical reasoning
 
 ## System Requirements
 - Python 3.8+
 - PyTorch 2.0+
 - Transformers 4.30+
-- CUDA-supported GPU (16GB+ VRAM recommended)
+- CUDA-supported GPU (48GB+ VRAM recommended)
 - At least 32GB system RAM
 
 ## References
-1. Liu, H., et al. (2023). "Visual Instruction Tuning." arXiv preprint arXiv:2304.08485.
-2. Li, C., et al. (2023). "Qwen Technical Report." arXiv preprint arXiv:2309.16609.
-3. Chen, J., et al. (2023). "SigLIP: Signal Language Image Pre-training." arXiv preprint arXiv:2303.15343.
-4. Zheng, C., et al. (2022). "Geometry Problem Solving by Integrating Language and Vision." arXiv preprint arXiv:2211.16374.
-5. Liu, X., et al. (2023). "DualMath: Dual Verification and Reasoning for Language Model-based Mathematical Problem Solving." arXiv preprint arXiv:2310.11350.
-6. Zhang, H., et al. (2023). "MathVista: Evaluating Mathematical Reasoning of Visual-Language Models." arXiv preprint arXiv:2310.02255.
+[1] Luo, R., Zheng, Z., Wang, Y., Yu, Y., Ni, X., Lin, Z., Zeng, J., & Yang, Y. (2025). [URSA: Understanding and Verifying Chain-of-thought Reasoning in Multimodal Mathematics](https://arxiv.org/abs/2501.04686). *arXiv preprint arXiv:2501.04686*.
 
 ## Acknowledgments
+- Thanks to the URSA-MATH project(https://github.com/URSA-MATH/URSA-MATH?tab=readme-ov-file) for providing research ideas and training datasets.
 - Thanks to Hugging Face for providing the Transformers library and model hosting.
 - Appreciation to Google Research for developing the SigLIP model.
 - Gratitude to the Qwen team for the Qwen model series.
